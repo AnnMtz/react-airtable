@@ -1,0 +1,298 @@
+.App {
+  text-align: center;
+}
+
+body {
+  font-family: Roboto, 'Segoe UI', Tahoma, sans-serif;
+}
+
+.navbar {
+  position: fixed;
+  z-index: 1;
+  #logo {
+    width: 8%;
+    .navbar-nav {
+      margin-left: 100%;
+      .nav-item {
+        color: rgba(0,0,0,0.9);
+        .nav-link {
+          color: inherit;
+            }
+        }
+      } 
+  }
+}
+
+
+#bg {
+  position: relative;
+  top: -55px;
+  width: 100%;
+}
+
+#slogan {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  top: -553px;
+  .slogan-text {
+    position: relative;
+    top: 20px;
+  }
+  #slogan-title {
+    text-align: center;
+    font-size: 6.7em;
+    font-weight: bolder;
+  }
+  #arrow {
+    position: relative;
+    top: 126px;
+  }
+}
+
+#cards {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  width: 78%;
+  justify-content: flex-end;
+  margin-left: auto;
+  position: relative;
+  top: -340px;
+  #disign-img {
+    position: absolute;
+    left: -150px;
+    top: -77px;
+    width: 30%;
+  }
+  .card-header {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 25px;
+    text-transform: uppercase;
+  }
+  .card-title {
+    width: 50%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 50px;
+    letter-spacing: 2px;
+    font-weight: 900;
+  }
+  .card-text {
+    display: inline-block;
+    text-align: justify;
+    width: 50%;
+    margin-right: 16%;
+  }
+  #services {
+    display: inline-block;
+    position: relative;
+    top: 60px;
+    left: 668px;
+    p{
+      margin-right: 68px;
+      font-size: 11px;
+    }
+    #develop {
+      margin-right: 87px;
+      font-size: 11px;
+      color: darkgray;
+    }
+    #marketing {
+      margin-right: 84px;
+      font-size: 11px;
+      color: darkgray;
+    }
+    #line {
+      border: 1px solid #fffffffc;
+      width: 68px;
+      transform: rotate(90deg);
+    }
+    #lines{
+      border: 1px solid darkgray;
+      width: 74px;
+      transform: rotate(90deg);
+    }
+  }
+  .btn {
+    border: 1px solid;
+    width: 46%;
+    height: 23%;
+    font-size: 20px;
+    border-radius: unset;
+    margin-right: 53px;
+    margin-bottom: 3em;
+    #btn-image {
+      width: 28px;
+      filter: invert(1);
+      margin-left: 8px;
+    }
+  }
+}
+
+//Projects.js
+  .card-title {
+    text-transform: uppercase;
+    color: darkgray;
+  }
+  .card-text-1{
+    font-size: 64px;
+    font-weight: bold;
+  }
+  .card-img{
+    width: 100%;
+  }
+
+.text-cards{
+  margin-top: 10px;
+  color: darkgray;
+}
+
+#bull-text {
+  color: black;
+}
+
+//Footer
+.footer {
+  background: black;
+  overflow: hidden;
+  #card-footer {
+    position: relative;
+    top: -400px;
+    #footer-title {
+      color: white;
+      margin-left: 2em;
+      font-size: 80px;
+    }
+    .footer-btn {
+        margin-left: 10em;
+        margin-top: 2em;
+        border-radius: 0px;
+        width: 17%;
+        padding: 10px;
+        #btn-footer {
+          width: 20px;
+          filter: invert(1);
+          margin-left: 15px;
+        }
+    }
+  }
+
+  //Contact view
+.contacto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+  // .contact-text {
+  //   display: flex;
+  //   flex-direction: column;
+  //   align-items: center;
+  //   margin-bottom: 5%;
+  // }
+  // .contact-center {
+  //   display: flex;
+  //   flex-direction: column;
+  //   justify-content: center;
+  //   align-items: center;
+  //   label {
+  //     display: block;
+  //     text-align: center;
+  //   }
+  // }
+
+  //footer
+  .footer-logos {
+    position: relative;
+    bottom: 294px;
+    #separator-line {
+      border: 1px solid rgba(204, 204, 204, 0.2);
+    }
+    .images {
+      display: flex;
+      margin-left: 15%;
+      #logo {
+        width: 30%;
+      }
+      #explora {
+        padding-top: 50px;
+      }
+      .paises {
+        width: 40px;
+      }
+    }
+    .links {
+      display: flex;
+      color: white;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+    }
+    .img-links {
+      width: 10%;
+    }
+    .card-footer {
+      color: white;
+    }
+
+  }
+
+}
+
+
+@media (max-width: 480px){
+  .card-columns {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 768px){
+  .card-columns {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 15px;
+    margin-right: 15px;
+    .card-body {
+      text-align: center;
+    }
+  }
+}
+
+#ceo {
+  color: white;
+  font-size: 5em;
+}
+
+#team-img {
+  width: 50%;
+  margin: 10px 0px 85px 100px;
+}
+
+.name {
+  color: white;
+}
+#description {
+  color: rgba(250, 250, 250, 0.8);
+  font-size: 24px;
+}
+
+@media (max-width: 992px) {
+  .card-text-1 {
+    font-size: 25px;
+  }
+  .card-columns {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+
+}
+
