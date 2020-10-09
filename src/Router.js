@@ -18,9 +18,8 @@ class Router extends Component {
           {/* Configuracion de las rutas */}
             <Switch>
               <Route exact path="/" component={Home} />
-              {/* <Route exact path="/home" component={Home} /> */}
+              <Route exact path="/home" component={Home} />
               <Route exact path="/projects" component={Projects} />
-              {/* <Route exact path="/blogs" component={Blogs} /> */}
               <Route exact path="/blog" component={Blog} />
               <Route exact path="/team" component={Team} />
               <Route exact path="/contact" component={Contact} />
